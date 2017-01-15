@@ -1,31 +1,21 @@
-## Synopsis
+Java setup
+=========
+This is a test repository.
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+### What is it?
+This repository has been created to check out how git remote setup works. This repository contains few test scripts e.g. listing down files from current working directory or how Java handles Unicode decoding e.g. [Java: Executing code in comments?!](http://programming.guide/java/executing-code-in-comments.html).
 
-## Code Example
+### Dependencies
+JDK needs to be installed [Java SE](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+### Usage
+```shell
+$ java ListAllDir *
+```
 
-## Motivation
+```shell
+$ java Ugly
+```
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Installation
-
-Provide code examples and explanations of how to get the project.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+### Meta
+Kuntal Chandra – [@kuntalchandra](https://twitter.com/kuntalchandra) – chandra.kuntal@gmail.com
